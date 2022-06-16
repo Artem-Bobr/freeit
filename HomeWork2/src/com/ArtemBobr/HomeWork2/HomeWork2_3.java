@@ -6,10 +6,10 @@ public class HomeWork2_3 {
         int b = a % 100;
 
         if (a > b) {
-            System.out.println(a + " больше " + b);
+            System.out.println(a + " > " + b);
         } else if (b < a) {
-            System.out.println(a + " меньше " + b);
+            System.out.println(a + " < " + b);
         } else
-            System.out.println(a + " равно " + b);
+            System.out.println(a + " = " + b);
     }
 }
