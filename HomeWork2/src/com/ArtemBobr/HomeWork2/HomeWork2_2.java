@@ -1,5 +1,9 @@
 package com.ArtemBobr.HomeWork2;
 
+/**
+ * Определить число, полученное выписыванием в обратном порядке цифр
+ * любого 4-х значного натурального числа n.
+ */
 public class HomeWork2_2 {
     public static void main(String[] args) {
         int n = 4711;
