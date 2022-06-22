@@ -1,6 +1,5 @@
-/**
- * Создайте число. Определите, является ли число трехзначным. Определите, является
- * ли его последняя цифра семеркой. Определите, является ли число четным.
+/**РЎРѕР·РґР°Р№С‚Рµ С‡РёСЃР»Рѕ. РћРїСЂРµРґРµР»РёС‚Рµ, СЏРІР»СЏРµС‚СЃСЏ Р»Рё С‡РёСЃР»Рѕ С‚СЂРµС…Р·РЅР°С‡РЅС‹Рј. РћРїСЂРµРґРµР»РёС‚Рµ, СЏРІР»СЏРµС‚СЃСЏ
+*Р»Рё РµРіРѕ РїРѕСЃР»РµРґРЅСЏСЏ С†РёС„СЂР° СЃРµРјРµСЂРєРѕР№. РћРїСЂРµРґРµР»РёС‚Рµ, СЏРІР»СЏРµС‚СЃСЏ Р»Рё С‡РёСЃР»Рѕ С‡РµС‚РЅС‹Рј.
  */
 
 
@@ -9,25 +8,25 @@ import java.util.Scanner;
 public class HomeWork3_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите число: ");
+        System.out.println(""Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
         int i = sc.nextInt();
         if(isThreeDigit(i)){
-            System.out.println("Число трёхзначное: " + isThreeDigit(i));
+            System.out.println("Р§РёСЃР»Рѕ С‚СЂС‘С…Р·РЅР°С‡РЅРѕРµ: " + isThreeDigit(i));
         }
         else{
-            System.out.println("Число трёхзначное: " + isThreeDigit(i));
+            System.out.println("Р§РёСЃР»Рѕ С‚СЂС‘С…Р·РЅР°С‡РЅРѕРµ: " + isThreeDigit(i));
         }
         if(isLastDigit(i)){
-            System.out.println("Последняя цифра семёрка: " + isLastDigit(i));
+            System.out.println("РџРѕСЃР»РµРґРЅСЏСЏ С†РёС„СЂР° СЃРµРјС‘СЂРєР°: " + isLastDigit(i));
         }
         else{
-            System.out.println("Последняя цифра семёрка: " + isLastDigit(i));
+            System.out.println("РџРѕСЃР»РµРґРЅСЏСЏ С†РёС„СЂР° СЃРµРјС‘СЂРєР°: " + isLastDigit(i));
         }
         if(isEven(i)){
-            System.out.println("Число чётное: " + isEven(i));
+            System.out.println("Р§РёСЃР»Рѕ С‡С‘С‚РЅРѕРµ: " + isEven(i));
         }
         else{
-            System.out.println("Число чётное: " + isEven(i));
+            System.out.println("Р§РёСЃР»Рѕ С‡С‘С‚РЅРѕРµ: " + isEven(i));
         }
     }
 
