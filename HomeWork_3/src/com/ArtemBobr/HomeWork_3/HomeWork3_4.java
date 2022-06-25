@@ -15,6 +15,7 @@ public class HomeWork3_4 {
             System.exit(0);
         }
         System.out.println("Enter your name: ");
+        sc.nextLine();
         String name = sc.nextLine();
 
         System.out.println("Enter your gender: ");
