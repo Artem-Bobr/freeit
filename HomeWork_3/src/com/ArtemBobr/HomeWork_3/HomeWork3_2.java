@@ -8,13 +8,13 @@ public class HomeWork3_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите размер а: ");
-        int a = sc.nextInt();
+        double a = sc.nextDouble();
         System.out.println("Ввведите размер b: ");
-        int b = sc.nextInt();
+        double b = sc.nextDouble();
         System.out.println("Введите радиус r: ");
-        int r = sc.nextInt();
-        double pi = 3.14;
-        if(pi * r * r >= a * b){
+        double r = sc.nextDouble();
+        double c = Math.sqrt(a*a + b*b);
+        if(2 * r >= c){
             System.out.println("Отверстие можно закрыть полностью");
         }
         else{
